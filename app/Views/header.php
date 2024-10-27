@@ -3,7 +3,7 @@
 <head>
 	<title>Gudang Kapal Api</title>
 	<link rel="stylesheet" type="text/css" href="<?=base_url('css/bootstrap.min.css')?>">
-	<link rel="stylesheet" type="text/css" href="<?=base_url('fontawesome/css/all.css')?>">
+	<link rel="stylesheet" type="text/css" href="<?=base_url('fontaws/css/all.css')?>">
 	<script src="<?=base_url('js/bootstrap.bundle.min.js')?>" type = "text/javascript" ></script>
 
 </head>

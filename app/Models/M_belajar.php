@@ -11,6 +11,9 @@ class M_belajar extends Model
 	public function join($table, $table2, $on){
 		return $this->db->table($table)->join($table2,$on)->get()->getResult();
 	}
+	public function filter($table, $table2, $on, $filter1,$filter2, $awal, $akhir){
+		return $this->db->table($table)->where($filter1,$awal)->where($filter2,$akhir)->join($table2,$on)->get()->getResult();
+	}
 	public function input($table, $data){
 		return $this->db->table($table)->insert($data);
 	}
